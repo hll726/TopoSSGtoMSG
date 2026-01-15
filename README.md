@@ -8,7 +8,7 @@ The TopoSSGtoMSG package enables the computation of topological properties of ar
    - After running, a folder selection prompt will appear. Select the folder containing TopoSSGtoMSG.wl.
 
 # Tutorial
-Using the altermagnetic material 0.402_Sr<sub>4</sub>Fe<sub>4</sub>O<sub>11</sub> as an example, we introduce how to use the various modules of **TopoSSGtoMSG**. The first module, **CheckSSGinfo**, provides the spin space group *G* of the material, including the primitive lattice vectors, the nontrivial part of the spin space group operations, and the classification of magnetic-moment directions in the collinear spin space group *G*. For altermagnetic 0.402_Sr<sub>4</sub>Fe<sub>4</sub>O<sub>11</sub>, the corresponding spin space group is *G* = 65.1.2.5.L, where the notation of spin space groups follows that on https://cmpdc.iphy.ac.cn/ssg/.
+Using the altermagnetic material 0.402_Sr<sub>4</sub>Fe<sub>4</sub>O<sub>11</sub> as an example, we introduce how to use the various modules of **TopoSSGtoMSG**. The first module, **CheckSSGinfo**, provides the basic information of the spin space group *G* of the material, including the primitive lattice vectors, the nontrivial part of the spin space group operations, and the classification of magnetic-moment directions in the collinear spin space group *G*. For altermagnetic 0.402_Sr<sub>4</sub>Fe<sub>4</sub>O<sub>11</sub>, the corresponding spin space group is *G* = 65.1.2.5.L, where the notation of spin space groups follows that on https://cmpdc.iphy.ac.cn/ssg/.
 
 ```mathematica
 CheckSSGinfo["65.1.2.5.L"]

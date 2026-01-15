@@ -8,12 +8,14 @@ The TopoSSGtoMSG package enables the computation of topological properties of ar
    - After running, a folder selection prompt will appear. Select the folder containing TopoSSGtoMSG.wl.
 
 # Tutorial
-Using the altermagnetic material 0.402_Sr<sub>4</sub>Fe<sub>4</sub>O<sub>11</sub> as an example, we introduce how to use the various modules of **TopoSSGtoMSG**. The first module, **CheckSSGinfo**, provides the basic information of the spin space group *G* of the material, including the primitive lattice vectors, the nontrivial part of the spin space group operations, and the classification of magnetic-moment directions in the collinear spin space group *G*. For altermagnetic 0.402_Sr<sub>4</sub>Fe<sub>4</sub>O<sub>11</sub>, the corresponding spin space group is *G* = 65.1.2.5.L, where the notation of spin space groups follows that on https://cmpdc.iphy.ac.cn/ssg/.
+Using the collinear altermagnetic material 0.402_Sr<sub>4</sub>Fe<sub>4</sub>O<sub>11</sub> as an example, we introduce how to use the various modules of **TopoSSGtoMSG**. The first module, **CheckSSGinfo**, provides the basic information of the spin space group *G* of the material, including the primitive lattice vectors, the nontrivial part of the collinear spin space group operations, and the classification of magnetic-moment directions in the collinear spin space group *G*. It should be noted that any spin group operation can be written in the form {R_s || R_r | τ}, where R_s denotes the operation in spin space, while R_r and τ are the rotational and translational parts of the corresponding real-space group operation, respectively. For the nontrivial part of the spin group, for convenience, we represent the real-space group operation by its action on the fractional coordinates (x, y, z) defined with respect to the primitive basis vectors **a<sub>1</sub>**, **a<sub>2</sub>**, and **a<sub>3</sub>**. That is, an arbitrary spin group operation is written as {R_s || R_r (x, y, z) + τ}. For altermagnetic 0.402_Sr<sub>4</sub>Fe<sub>4</sub>O<sub>11</sub>, the corresponding spin space group is *G* = 65.1.2.5.L, where the notation of spin space groups follows that on https://cmpdc.iphy.ac.cn/ssg/.
+
 
 ```mathematica
 CheckSSGinfo["65.1.2.5.L"]
 ```
 <img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/ssgoperationandmmd.png" alt="Lattice" width="50%">
+Here, *E*表示不动操作，*T*表示时间反演操作，它可以反转自旋。
 
 ```mathematica
 CheckDegenarcy["65.1.2.5.L", 0]

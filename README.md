@@ -15,7 +15,7 @@ The TopoSSGtoMSG package enables the computation of topological properties of ar
 ```mathematica
 CheckSSGinfo["65.1.2.5.L"]
 (* Collinear spin space group 65.1.2.5.L *)
-...
+```
 
 
 ![Lattice](https://github.com/hll726/TopoSSGtoMSG/raw/main/src/ssgoperationandmmd.png)

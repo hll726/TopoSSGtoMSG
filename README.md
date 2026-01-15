@@ -32,7 +32,7 @@ CheckDegenarcy["65.1.2.5.L", 4]
 
 unzip the TopoSSGtoMSG-V1.zip file
 
-<img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/topossgtomsg.png" alt="Lattice" width="40%">
+<img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/topossgtomsg.png" alt="Lattice" width="80%">
 
 ```mathematica
 GetTopfilling["65.1.2.5.L", 0, 0, 0]

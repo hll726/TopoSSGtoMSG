@@ -11,9 +11,9 @@ The TopoSSGtoMSG package enables the computation of topological properties of ar
    - After running, a folder selection prompt will appear. Select the folder containing TopoSSGtoMSG.wl.
 
 # Tutorial
-```julia
-using QuantumLattices
-# define the unitcell
+```mathematica
+CheckSSGinfo["65.1.2.5.L"]
+# Collinear spin space group 65.1.2.5.L
 ...
 
 ![Lattice](1.png)

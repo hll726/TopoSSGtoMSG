@@ -15,7 +15,8 @@ Using the collinear altermagnetic material 0.402_Sr<sub>4</sub>Fe<sub>4</sub>O<s
 CheckSSGinfo["65.1.2.5.L"]
 ```
 <img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/ssgoperationandmmd.png" alt="Lattice" width="50%">
-Here, *E*表示不动操作，*T*表示时间反演操作，它可以反转自旋。
+
+Here, *E* denotes the identity operation, and *T* denotes the time-reversal operation, which reverses the spin. Next, we introduce the **CheckDegenarcy** module, which displays the names and degeneracies of the irreducible (co-)representations at high-symmetry points, high-symmetry lines, high-symmetry planes, or generic **k** points *(u, v, w)* under either the collinear spin space group or the magnetic space group determined by a specific class of magnetic-moment orientations. This module is useful for understanding the degeneracies of symmetry-enforced band crossings in Case III, which are identified by the core module **GetTopfilling**, introduced below.
 
 ```mathematica
 CheckDegenarcy["65.1.2.5.L", 0]
@@ -63,6 +64,8 @@ GetTopfilling["65.1.2.5.L", 4, 0, 0]
 ```
 <img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/msgtopology2.png" alt="Lattice" width="100%">
 
+# References
+L. Huang, X.Wan, and F. Tang, “Prediction of magnetic topological materials combining spin and magnetic space groups,” (2026), arXiv:2601.05142.
 
 # Contact
 

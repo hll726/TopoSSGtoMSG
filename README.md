@@ -16,9 +16,19 @@ The TopoSSGtoMSG package enables the computation of topological properties of ar
 CheckSSGinfo["65.1.2.5.L"]
 (* Collinear spin space group 65.1.2.5.L *)
 ```
-
-
 <img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/ssgoperationandmmd.png" alt="Lattice" width="30%">
+
+```mathematica
+CheckDegenarcy["65.1.2.5.L", 0]
+(* Collinear spin space group 65.1.2.5.L *)
+```
+<img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/ssg.png" alt="Lattice" width="30%">
+
+```mathematica
+CheckDegenarcy["65.1.2.5.L", 4]
+(* Collinear spin space group 65.1.2.5.L *)
+```
+<img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/msg.png" alt="Lattice" width="30%">
 
 # Contact
 

@@ -50,7 +50,7 @@ GetTopfilling["65.1.2.5.L", 0, 0, 0]
 GetTopfilling["65.1.2.5.L", 4, 0, 1]
 (* Collinear spin space group 65.1.2.5.L *)
 ```
-<img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/msgtopology1.png" alt="Lattice" width="40%">
+<img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/msgtopology3.png" alt="Lattice" width="40%">
 
 ```mathematica
 GenKpath["65.1.2.5.L", 4]

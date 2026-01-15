@@ -18,7 +18,10 @@ CheckSSGinfo["65.1.2.5.L"]
 ```
 
 
-![Lattice](https://github.com/hll726/TopoSSGtoMSG/raw/main/src/ssgoperationandmmd.png)
+<img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/ssgoperationandmmd.png" alt="Lattice" width="30%">
 
+# Contact
+
+L. Huang: 602025220022@smail.nju.edu.cn
 
 

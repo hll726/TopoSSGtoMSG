@@ -16,6 +16,7 @@ CheckSSGinfo["65.1.2.5.L"]
 # Collinear spin space group 65.1.2.5.L
 ...
 
-![Lattice](1.png)
+![Lattice](https://github.com/hll726/TopoSSGtoMSG/raw/main/src/ssgoperationandmmd.png)
+
 
 

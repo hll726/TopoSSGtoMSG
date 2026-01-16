@@ -17,11 +17,11 @@ CheckSSGinfo["65.1.2.5.L"]
 ```
 <img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/ssgoperationandmmd.png" alt="Lattice" width="50%">
 
-Here, *E* denotes the identity operation, and *T* denotes the time-reversal operation, which reverses the spin. Next, we introduce the **CheckDegenarcy** module, which displays the names and degeneracies of the irreducible (co-)representations at high-symmetry points, high-symmetry lines, high-symmetry planes, or generic **k** points *(u, v, w)* under either the collinear spin space group or the magnetic space group determined by a specific class of magnetic-moment orientations. This module is useful for understanding the degeneracies of symmetry-enforced band crossings in case III, which are identified by the core module **GetTopfilling**, introduced below.
+Here, *E* denotes the identity operation, and *T* denotes the time-reversal operation, which reverses the spin. The quantities *n*<sub>x</sub>, *n*<sub>y</sub>, and *n*<sub>z</sub> are the components of the unit vector of the magnetic-moment direction along the *x*-, *y*-, and *z*-axes in the Cartesian coordinate system. Next, we introduce the **CheckDegenarcy** module, which displays the labels and degeneracies of the irreducible (co-)representations at high-symmetry points, high-symmetry lines, high-symmetry planes, or generic **k** points *(u, v, w)* under either the collinear spin space group or the magnetic space group determined by a specific class of magnetic-moment orientations. This module is useful for understanding the degeneracies of symmetry-enforced band crossings in case III, which are identified by the core module **GetTopfilling**, introduced below. First, we present the results for the spin space group *G* = 65.1.2.5.L.
 
 ```mathematica
 CheckDegenarcy["65.1.2.5.L", 0]
-(* Collinear spin space group 65.1.2.5.L *)
+(*CheckDegenarcy[SSGname, momclass], SSGname denotes the name of the collinear spin space group and momclass = 0 corresponds to calculations without spin-orbit coupling (under spin space group)*)
 ```
 <img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/ssg.png" alt="Lattice" width="80%">
 

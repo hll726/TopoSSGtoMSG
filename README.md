@@ -66,8 +66,16 @@ GetTopfilling["65.1.2.5.L", 0, 0, 0]
 ```
 
 
-计算的结果
+The computed results are shown below.
+
 <img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/ssgtopology.png" alt="Lattice" width="100%">
+
+In the first-level structure, the entry `0` denotes the relative electronic filling *v*. In the second-level structure, **III** indicates that the topology at relative electronic filling *v* = 0 belongs to case **III**, namely symmetry-enforced band crossings at high-symmetry points, high-symmetry lines, high-symmetry planes, or generic ***k***-points (*u*, *v*, *w*).
+
+The second level further provides detailed information on the symmetry-enforced band crossings. In this example, the symmetry-enforced band crossings occur on the high-symmetry plane P3: (−*v*, *u*, 0) (see the result of CheckDegenarcy["65.1.2.5.L", 0]). Taking the first entry `{{-v, u, 0}, {{0, 0, 0}, {1/2, 0, 0}}, 1, {11, 12}}`  as an illustration of the data format, the information is interpreted as follows. First, the symmetry-enforced band crossing is located on the high-symmetry plane P3: (−*v*, *u*, 0). Second, the crossing lies along the line connecting the high-symmetry points {0, 0, 0} and {1/2, 0, 0}. Finally, it is formed by the crossing of the irreducible (co-)representations 11 and 12.
+
+According to the information provided by `CheckDegenarcy["65.1.2.5.L", 0]`, both of these irreducible (co-)representations are one-dimensional. Therefore, the resulting band crossing is twofold degenerate. The subsequent entries in the parentheses describe band crossings along multiple directions, indicating the presence of Weyl nodal rings encircling the high-symmetry points {1/2, 0, 0}, {0, 1/2, 0}, or {0, 0, 0}.
+
 
 ```mathematica
 GetTopfilling["65.1.2.5.L", 4, 0, 1]

@@ -24,6 +24,7 @@ CheckDegenarcy["65.1.2.5.L", 0]
 (*CheckDegenarcy[SSGname, momclass], SSGname denotes the name of the collinear spin space group and momclass = 0 corresponds to calculations without spin-orbit coupling (under spin space group)*)
 ```
 <img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/ssg.png" alt="Lattice" width="80%">
+Then, we present the results for the magnetic space group 65.486 (Belov–Neronova–Smirnova notation, magnetic space group type III), which is determined by selecting class 4 (1, 0, 0) of magnetic-moment directions in the spin space group *G* = 65.1.2.5.L.
 
 ```mathematica
 CheckDegenarcy["65.1.2.5.L", 4]

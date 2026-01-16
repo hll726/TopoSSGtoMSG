@@ -21,18 +21,21 @@ Here, *E* denotes the identity operation, and *T* denotes the time-reversal oper
 
 ```mathematica
 CheckDegenarcy["65.1.2.5.L", 0]
-(*CheckDegenarcy[SSGname, momclass], SSGname denotes the name of the collinear spin space group and momclass = 0 corresponds to calculations without spin-orbit coupling (under spin space group)*)
+(*CheckDegenarcy[SSGname, momclass], SSGname denotes the name of the collinear spin space group and momclass = 0 corresponds to calculations without SOC (under spin space group)*)
 ```
 <img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/ssg.png" alt="Lattice" width="80%">
+
 Then, we present the results for the magnetic space group 65.486 (Belov–Neronova–Smirnova notation, magnetic space group type III), which is determined by selecting class 4 (1, 0, 0) of magnetic-moment directions in the spin space group *G* = 65.1.2.5.L.
 
 ```mathematica
 CheckDegenarcy["65.1.2.5.L", 4]
-(* Collinear spin space group 65.1.2.5.L *)
+(*CheckDegenarcy[SSGname, momclass], SSGname denotes the name of the collinear spin space group and momclass ≠ 0 corresponds to calculations with SOC.
+The specific nonzero value of momclass labels the corresponding class of magnetic-moment orientations in the given collinear spin space group*)
 ```
 <img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/msg.png" alt="Lattice" width="80%">
 
-unzip the TopoSSGtoMSG-V1.zip file
+Next, we introduce how to use **TopoSSGtoMSG** to compute the topology of collinear magnetic materials. Here, we consider three cases: without SOC (the topology is diagnosed by the spin space group), the negligible-SOC limit (the topology is diagnosed by the magnetic space group), and the realistic-SOC case (the topology is diagnosed by the magnetic space group). For the latter two cases, various magnetic-moment orientations can be considered. The computational workflow is illustrated in the flowchart below.
+
 
 <img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/topossgtomsg.png" alt="Lattice" width="80%">
 

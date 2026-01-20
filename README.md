@@ -37,7 +37,7 @@ The specific nonzero value of momclass labels the corresponding class of magneti
 Next, we introduce how to use **TopoSSGtoMSG** to compute the topology of collinear magnetic materials. Here, we consider three cases: without SOC (the topology is diagnosed by the spin space group), the negligible-SOC limit (the topology is diagnosed by the magnetic space group), and the realistic-SOC case (the topology is diagnosed by the magnetic space group). For the latter two cases, various magnetic-moment orientations can be considered. The computational workflow is illustrated in the flowchart below.
 
 
-
+<img src="https://github.com/hll726/TopoSSGtoMSG/raw/main/src/topossgtomsg.png" alt="Lattice" width="80%">
 
 Specifically, the workflow can be divided into three steps. 
 - The first step is a self-consistent VASP calculation.

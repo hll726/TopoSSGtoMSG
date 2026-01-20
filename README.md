@@ -129,7 +129,7 @@ Using the modules **ColliSSGCalTopoElectron** and **MSGCalTopoElectron**, togeth
 ```mathematica
 {{material formula and BCSID,{{U=i (eV),{{under spin space group: *δν*= -8,high-symmetry-points symmetry data for *U=i eV* and *δν=-8* under spin space group},...},{{under magnetic space group (realistic spin-orbital coupling): *δν*= -8,high-symmetry-points symmetry data for *U=i eV* and *δν=-8* under magnetic space group (realistic spin-orbital coupling)},...}},...}},...}
 ```
-We use the altermagnetic material **0.402_Sr<sub>4</sub>Fe<sub>4</sub>O<sub>11</sub>** as an example to demonstrate how to use the modules **ColliSSGCalTopoElectron** and **MSGCalTopoElectron**, together with the provided high-symmetry-points symmetry data.
+We use the altermagnetic material 0.402_Sr<sub>4</sub>Fe<sub>4</sub>O<sub>11</sub> as an example to demonstrate how to use the modules **ColliSSGCalTopoElectron** and **MSGCalTopoElectron**, together with the provided high-symmetry-points symmetry data.
 
 ```mathematica
 data = Import["dir3\\484materials-HSPs-symmetry-data.mx"];
